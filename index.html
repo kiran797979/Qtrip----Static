@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QTrip</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-xs navbar-expand-sm navbar-expand-lg navbar-expand-xl navbar-light bg-light">
+      <a class="navbar-brand ms-3" href="index.html">QTrip</a>
+      <button
+        class="navbar-toggler me-3"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/adventures/index.html">Explore</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-image d-flex text-white text-center justify-content-center align-items-center">
+      <div class="container">
+        <h1>Welcome to QTrip</h1>
+        <p class="sub-heading">Explore the world with fantastic places to venture around</p>
+        <input class="hero-input" placeholder="Search a city" />
+      </div>
+    </div>
+
+    <!-- Adventures Tiles -->
+    <div class="container mt-3">
+      <div class="row align-items-stretch">
+        <!-- Bengaluru Tile -->
+        <div class="col-sm-12 col-md-6 col-lg-3 mb-4 d-flex align-content-stretch">
+          <a href="pages/adventures/index.html" class="tile">
+            <img class="img-fluid" src="assets/bengaluru.jpg" alt="Bengaluru" />
+            <div class="tile-text">
+              <h4>Bengaluru</h4>
+              <p>100+ places</p>
+            </div>
+          </a>
+        </div>
+        <!-- Kolkata Tile -->
+        <div class="col-sm-12 col-md-6 col-lg-3 mb-4 d-flex align-content-stretch">
+          <a href="pages/adventures/index.html" class="tile">
+            <img class="img-fluid" src="assets/kolkata.jpg" alt="Kolkata" />
+            <div class="tile-text">
+              <h4>Kolkata</h4>
+              <p>52+ places</p>
+            </div>
+          </a>
+        </div>
+        <!-- Goa Tile -->
+        <div class="col-sm-12 col-md-6 col-lg-3 mb-4 d-flex align-content-stretch">
+          <a href="pages/adventures/index.html" class="tile">
+            <img class="img-fluid" src="assets/goa.jpg" alt="Goa" />
+            <div class="tile-text">
+              <h4>Goa</h4>
+              <p>180+ places</p>
+            </div>
+          </a>
+        </div>
+        <!-- Mumbai Tile -->
+        <div class="col-sm-12 col-md-6 col-lg-3 mb-4 d-flex align-content-stretch">
+          <a href="pages/adventures/index.html" class="tile">
+            <img class="img-fluid" src="assets/mumbai.jpg" alt="Mumbai" />
+            <div class="tile-text">
+              <h4>Mumbai</h4>
+              <p>121+ places</p>
+            </div>
+          </a>
+        </div>
+        <!-- Singapore Tile -->
+        <div class="col-sm-12 col-md-6 col-lg-3 mb-4 d-flex align-content-stretch">
+          <a href="pages/adventures/index.html" class="tile">
+            <img class="img-fluid" src="assets/singapore.jpg" alt="Singapore" />
+            <div class="tile-text">
+              <h4>Singapore</h4>
+              <p>89+ places</p>
+            </div>
+          </a>
+        </div>
+        <!-- Dubai Tile -->
+        <div class="col-sm-12 col-md-6 col-lg-3 mb-4 d-flex align-content-stretch">
+          <a href="pages/adventures/index.html" class="tile">
+            <img class="img-fluid" src="assets/dubai.jpg" alt="Dubai" />
+            <div class="tile-text">
+              <h4>Dubai</h4>
+              <p>74+ places</p>
+            </div>
+          </a>
+        </div>
+        <!-- Malaysia Tile -->
+        <div class="col-sm-12 col-md-6 col-lg-3 mb-4 d-flex align-content-stretch">
+          <a href="pages/adventures/index.html" class="tile">
+            <img class="img-fluid" src="assets/malaysia.jpg" alt="Malaysia" />
+            <div class="tile-text">
+              <h4>Malaysia</h4>
+              <p>172+ places</p>
+            </div>
+          </a>
+        </div>
+        <!-- Paris Tile -->
+        <div class="col-sm-12 col-md-6 col-lg-3 mb-4 d-flex align-content-stretch">
+          <a href="pages/adventures/index.html" class="tile">
+            <img class="img-fluid" src="assets/paris.jpg" alt="Paris" />
+            <div class="tile-text">
+              <h4>Paris</h4>
+              <p>150+ places</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">© QTrip 2020</div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+            crossorigin="anonymous"></script>
+  </body>
+</html>
