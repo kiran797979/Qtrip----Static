@@ -8,6 +8,10 @@ QTrip-Static is a travel website project that allows users to browse, search, an
 - View detailed information about each adventure
 - Responsive design for mobile and desktop
 - Clean and modern UI
+- ![image](https://github.com/user-attachments/assets/04aebc38-6304-4e35-8cdb-69fcb5f144af)
+- ![image](https://github.com/user-attachments/assets/c0ca20b6-5a1e-4b24-a48d-9787ff6747e1)
+- ![image](https://github.com/user-attachments/assets/b78ea2c3-9920-46b2-8232-886c8478d91d)
+
 
 ## Project Structure
 
